@@ -1,0 +1,104 @@
+.container {
+  /* width: 100vw; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main {
+  width: 1440px;
+}
+.sections {
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  justify-content: space-between;
+  margin: 52px 300px 63px 300px;
+
+  align-items: center;
+
+  height: 100%;
+}
+
+.sydneyBoutique,
+.saleStock {
+  height: 300px;
+  width: 300px;
+  border: 10px red solid;
+}
+
+.secuPantin,
+.vendMontana {
+  height: 300px;
+  width: 300px;
+  border: 10px green solid;
+}
+
+.devReact {
+  height: 300px;
+  width: 300px;
+  border: 10px pink solid;
+}
+.chefPro,
+.inf {
+  height: 300px;
+  width: 300px;
+  border: 10px blue solid;
+}
+
+.respAtelier,
+.dataAnaly {
+  height: 300px;
+  width: 300px;
+  border: 10px yellow solid;
+}
+
+.respAtelier,
+.dataAnaly,
+.chefPro,
+.inf,
+.devReact,
+.secuPantin,
+.vendMontana,
+.sydneyBoutique,
+.saleStock {
+  display: flex;
+  text-align: start;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-bottom: 10px;
+  margin-right: 20px;
+  margin-top: 20px;
+  box-sizing: border-box;
+  margin-left: 20px;
+}
+
+main {
+  width: 100%;
+  height: 100%;
+  /* border: 3px blue solid; */
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.header {
+  background-color: black;
+  height: 100px;
+  max-width: 1440vw;
+  font-size: 40px;
+  color: white;
+  text-align: center;
+  padding-top: 28px;
+  box-sizing: border-box;
+}
+
+footer {
+  width: 100%;
+  height: 63px;
+  text-align: center;
+  margin-top: 23px;
+  padding-bottom: 11px;
+  padding-top: 11px;
+  box-sizing: border-box;
+  background-color: #dddddd;
+  font-size: 18px;
+  line-height: 21px;
+}
